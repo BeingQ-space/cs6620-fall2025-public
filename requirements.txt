@@ -3,3 +3,4 @@ pygame
 Flask-CORS
 pydub
 gunicorn
+audioop-lts; python_version >= "3.13"
