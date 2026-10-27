@@ -62,7 +62,7 @@ jobs:
               "docker pull \($image)",
               "docker stop cs6620-app || true",
               "docker rm cs6620-app || true",
-              "docker run -d --name cs6620-app --restart unless-stopped -p 80:5000 \(#image)"
+              "docker run -d --name cs6620-app --restart unless-stopped -p 80:5000 \($image)"
             ]
           }')
 
